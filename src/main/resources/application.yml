@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+
+logging:
+  level:
+    com:
+      example:
+        journalApp: DEBUG
+
+# Used to make changes to root directory
+#logging:
+#  level:
+#    root: OFF
