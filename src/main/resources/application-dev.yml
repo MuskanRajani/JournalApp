@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://muskanrajani1002:Muskan12345@cluster0.yag17.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      uri: 
       database: journaldb
       auto-index-creation: true
   main:
@@ -9,7 +9,7 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: muskanrajani1002@gmail.com
+    username:
     password: ${JAVA_EMAIL_PASSWORD}
     properties:
       mail:
