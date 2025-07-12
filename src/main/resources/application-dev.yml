@@ -1,11 +1,22 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://Muskan:Muskan1234@cluster0.sf4nz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      uri: mongodb+srv://muskanrajani1002:Muskan12345@cluster0.yag17.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
       database: journaldb
       auto-index-creation: true
   main:
     allow-circular-references: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: muskanrajani1002@gmail.com
+    password: ${JAVA_EMAIL_PASSWORD}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
 
 server:
   servlet:
